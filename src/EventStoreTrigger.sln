@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleFunction", "SampleFunction\SampleFunction.csproj", "{E4BAFCC2-E0F7-4E2B-AA79-CE4E071C1720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStoreTrigger", "EventStoreTrigger\EventStoreTrigger.csproj", "{69818874-39E8-403E-BAC2-8A4353F82797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4BAFCC2-E0F7-4E2B-AA79-CE4E071C1720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BAFCC2-E0F7-4E2B-AA79-CE4E071C1720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BAFCC2-E0F7-4E2B-AA79-CE4E071C1720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BAFCC2-E0F7-4E2B-AA79-CE4E071C1720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69818874-39E8-403E-BAC2-8A4353F82797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69818874-39E8-403E-BAC2-8A4353F82797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69818874-39E8-403E-BAC2-8A4353F82797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69818874-39E8-403E-BAC2-8A4353F82797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E7FD3E9-B2DD-4669-9738-6A2FEEC1ACCC}
+	EndGlobalSection
+EndGlobal
