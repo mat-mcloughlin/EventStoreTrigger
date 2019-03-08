@@ -4,11 +4,11 @@ namespace SiaConsulting.Azure.WebJobs.Extensions.EventStoreExtension.Mat
 {
     public class EventStoreEvent
     {
-        public EventStoreEvent(ResolvedEvent something)
+        public EventStoreEvent(ResolvedEvent resolvedEvent)
         {
-            Something = something;
+            ResolvedEvent = resolvedEvent;
         }
 
-        public ResolvedEvent Something { get; }
+        public ResolvedEvent ResolvedEvent { get; }
     }
 }

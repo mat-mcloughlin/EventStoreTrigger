@@ -19,7 +19,7 @@ namespace SampleFunction
         public static void Run([EventStoreTrigger]EventStoreEvent events,
             ILogger log)
         {
-            log.LogInformation(events.Something.OriginalEvent.EventType);
+            log.LogInformation(events.ResolvedEvent.OriginalEvent.EventType);
         }
     }
 }
